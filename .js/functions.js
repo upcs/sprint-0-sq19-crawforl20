@@ -1,10 +1,6 @@
-function addTwo() {
-  var num1 = Number(document.getElementById('num1').value);
-  var num2 = Number(document.getElementById('num2').value);
+function addTwo(num1, num2) {
 
-  document.getElementById('result').innerHTML = num1 + num2;
-  return false;
+  return num1 + num2;
 }
 
-document.getElementsById('go').addEventListener('click', add);
 module.exports = addTwo;
